@@ -1,0 +1,16 @@
+html, body {
+    background: #43a9e4;
+}
+#postit {
+    width: 100px;
+    height: 100px;
+}
+.login-box {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+    background: #ffffff;
+    align-items: center;
+}
