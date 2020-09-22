@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login_style.css">
-    <title>Welcome to postit! Please Log in!</title>
-</head>
-<body>
-    <div class='login-box'>
-            <div class='welcome'>
-            <img id='postit' src="../Assets/login_postit.png" alt="Your browser does not seem to support images.">
-            <p>Welcome to postIt</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="login_style.css" />
+        <title>Welcome to postit! Please Log in!</title>
+    </head>
+    <body>
+        <div class="login-box">
+            <div class="welcome">
+                <img
+                    id="postit"
+                    src="../Assets/login_postit.png"
+                    alt="Your browser does not seem to support images."
+                />
+                <p>Welcome to postIt</p>
             </div>
             <a href="">Create an Account</a>
             <p>Or</p>
             <p>Please Log In</p>
-            <form>
-                <input type="text" name="email" placeholder="Email">
-                <input type="text" name="password" placeholder="Password">
+            <form action="../Landing/index.html">
+                <input type="text" name="email" placeholder="Email" />
+                <input type="text" name="password" placeholder="Password" />
+                <input type="submit" value="Log In" />
             </form>
-            <button>Log In</button>
+
             <a href="">Forgot password?</a>
-            
-    </div>
-</body>
+        </div>
+    </body>
 </html>
