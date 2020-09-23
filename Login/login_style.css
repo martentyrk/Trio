@@ -59,3 +59,17 @@ input[type="submit"] {
     background-color: rgb(1, 81, 173);
     cursor: pointer;
 }
+input[type="submit"]:active {
+    width: 23%;
+    height: 37px;
+    background-color: rgb(4, 67, 138);
+    
+}
+
+a {
+    color: #43a9e4;
+}
+
+a::after {
+    color: #c89ff7;
+}
