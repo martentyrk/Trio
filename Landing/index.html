@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
-        <title>Document</title>
-    </head>
-    <body>
-        <header>
-            <nav class="main-nav">
-                <div class="main-nav__item">
-                    <img
-                        class="main-nav__img"
-                        src="../Assets/login_postit.png"
-                        alt="postit-image"
-                    />
-                </div>
-                <div class="main-nav__item search">
-                    <input type="text" class="main-nav__input" />
-                    <button class="main-nav__btn">Search</button>
-                </div>
-                <div class="main-nav__item main-nav__profile">
-                    <img src="../Assets/defaultProfile.png" alt="" />
-                </div>
-            </nav>
-        </header>
-        <section>
-            <div>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ducimus ipsum officiis quo nostrum. Quisquam aperiam cum
-                    explicabo reprehenderit, magnam, corporis distinctio enim
-                    voluptate eius atque voluptates voluptas natus, animi
-                    suscipit?
-                </p>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="main-nav__item">
+                <img class="main-nav__img" src="../Assets/login_postit.png" alt="postit-image" />
             </div>
-        </section>
-    </body>
+            <div class="main-nav__item search">
+                <input type="text" class="main-nav__input" />
+                <button class="main-nav__btn">Search</button>
+            </div>
+            <div class="main-nav__item main-nav__profile">
+                <img src="../Assets/defaultProfile.png" alt="" />
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="flex-container">
+            <div style="flex-basis: 400px">
+                <nav class="post-nav">
+                    <img class="user1" src="../Assets/defaultProfile.png" alt="user1" />
+                    <div class="Date1">Sep 18, 2020 15:16</div>
+                </nav>
+                <img src="../Assets/rangers.jpg" alt="rangers-image" />
+
+                <p class="Caption">They are ze best!</p>
+                <button>
+                    <img src="../Assets/likeBtn.png" width="50" height="50" alt="like" />
+                </button>
+            </div>
+            <div>
+                <div style="flex-basis: 200px"></div>
+                <nav class="post-nav">
+                    <img class="user1" src="../Assets/defaultProfile.png" alt="user1" />
+                    <div class="Date1">Sep 19, 2020 12:17</div>
+                </nav>
+                <p class="Caption"> Which weighs more, a pound of feathers or a pound of bricks?</p>
+                <button>
+                    <img src="../Assets/likeBtn.png" width="50" height="50" alt="submit" />
+                </button>
+            </div>
+            <div style="flex-basis: 300px">
+                <nav class="post-nav">
+                    <img class="user1" src="../Assets/defaultProfile.png" alt="user1" />
+                    <div class="Date1">Sep 20, 2020 10:19</div>
+                </nav>
+                <img src="../Assets/batman.jpg" alt="rangers-image" />
+                <p class="Caption">Felt cute, might delete later!</p>
+                <button >
+                    <img src="../Assets/likeBtn.png" width="50" height="50" alt="like" />
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>

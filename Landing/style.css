@@ -55,6 +55,7 @@ header {
     align-items: center;
 }
 
+
 .main-nav__input {
     height: calc(50% - 2px);
     border: solid rgba(0, 0, 0, 0.178) 1px;
@@ -78,5 +79,68 @@ section {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    
+}
+
+.flex-container {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
     height: 100%;
+  display: flex;
+  flex-direction: column;  
+}
+
+.flex-container > div {
+justify-content: center; 
+  width: auto;
+  box-shadow: 5px 10px 18px #888888;
+  margin: 10px;
+  text-align: left;
+  font-size: 150%;
+  font-weight: 500;
+}
+div p {
+    text-align: left;
+    font-size: 115%;
+    font-weight: 300%;
+    margin: 1.5%;
+}
+nav + img {
+    margin-bottom: 1%;
+    justify-content: absolut; 
+    width: 100%;
+    height: 70%;
+}
+
+.post-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+.Date1 {
+    display: flex;
+    align-self:flex-end;
+    font-size: 60%;
+    font-weight: 300%;
+    margin: 2%;
+}
+
+.user1 {
+    widows: 23px;;
+    height: 23px;
+    margin: 2%;
+}
+
+p.Caption::first-letter {
+    color: black;
+    font-size: 130%;
+  }  
+nav ~ button{
+    border: 0; 
+    background: transparent;
 }
