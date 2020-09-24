@@ -1,6 +1,8 @@
-html, body {
+html,
+body {
     background: #43a9e4;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: bold;
 }
 #postit {
     width: 100px;
@@ -8,7 +10,7 @@ html, body {
     margin-left: 10px;
     margin-top: 10px;
     display: inline;
-    float:left;
+    float: left;
 }
 div > div > p {
     text-align: center;
@@ -17,9 +19,16 @@ div > div > p {
     display: inline;
     float: left;
 }
-.welcome{
+.welcome {
     width: 500px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
 .login-box {
     display: flex;
     flex-direction: column;
@@ -28,14 +37,39 @@ div > div > p {
     margin: 200px auto;
     background: #ffffff;
     align-items: center;
-    box-shadow: 5px 5px 10px 5px #6d819b;
+    box-shadow: 5px 5px 10px 5px #00000031;
 }
 
 input {
-    width: 100%;
+    width: 60%;
     height: 40px;
     margin: auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     padding: 0;
     padding-left: 12px;
+}
+
+input[type="submit"] {
+    width: 25%;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(1, 81, 173);
+    cursor: pointer;
+}
+input[type="submit"]:active {
+    width: 23%;
+    height: 37px;
+    background-color: rgb(4, 67, 138);
+    
+}
+
+a {
+    color: #43a9e4;
+}
+
+a::after {
+    color: #c89ff7;
 }
