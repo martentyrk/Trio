@@ -47,6 +47,10 @@ input {
     margin-bottom: 10px;
     padding: 0;
     padding-left: 12px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    
 }
 
 input[type="submit"] {
