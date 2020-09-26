@@ -100,6 +100,7 @@ justify-content: center;
   text-align: left;
   font-size: 150%;
   font-weight: 500;
+  border-radius: 5px;
 }
 div p {
     text-align: left;
@@ -122,18 +123,20 @@ nav + img {
 
 }
 
-.Date1 {
+.date {
     display: flex;
     align-self:flex-end;
     font-size: 60%;
+    color: grey;
     font-weight: 300%;
     margin: 2%;
 }
 
-.user1 {
+.user {
     widows: 23px;;
     height: 23px;
     margin: 2%;
+    
 }
 
 p.Caption::first-letter {
@@ -143,4 +146,10 @@ p.Caption::first-letter {
 nav ~ button{
     border: 0; 
     background: transparent;
+    border-radius: 50px;
+    cursor: pointer;
 }
+button:hover {
+    width:52px;
+    height:52px;
+  }
